@@ -8,14 +8,7 @@
 
 
 
-void print_joke(Joke &joke)
-{
-    std::cout << joke.setup << std::endl;
 
-    std::this_thread::sleep_for(std::chrono::seconds(2));
-
-    std::cout << joke.punchline << std::endl;
-}
 
 
 int main(int, char**){
@@ -25,7 +18,7 @@ int main(int, char**){
 
     Joke j = Parser::Get().Parse(buf);
 
-    print_joke(j);
+    Parser::Get().print_joke(j);
 
 
     return 0;

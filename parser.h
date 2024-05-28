@@ -2,6 +2,10 @@
 
 #include <exception>
 #include<iostream>
+#include<chrono>
+#include<thread>
+
+
 #include<nlohmann/json.hpp>
 using json = nlohmann::json;
 
@@ -19,5 +23,7 @@ public:
     static Parser &Get();
 
     Joke Parse(std::string &buf);
+
+    void print_joke(Joke &joke);
 
 };
