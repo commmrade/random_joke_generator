@@ -20,9 +20,9 @@ Request::~Request()
     curl_easy_cleanup(curl);
 }
 
-size_t Request::writeData(void *data, size_t size, size_t n, std::string *str)
+size_t Request::writeData(void *data, size_t size, size_t n, std::string &str)
 {
-    str->append((char*)data, size * n);
+    str.append((char*)data, size * n);
 
     return size * n;
 }
