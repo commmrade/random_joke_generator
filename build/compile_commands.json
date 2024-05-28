@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/klewy/programming/vscode/cpp_projects/randomjoke/build",
+  "command": "/usr/bin/g++ -I/home/klewy/programming/vscode/cpp_projects/randomjoke/include -O3 -DNDEBUG -o CMakeFiles/proj.dir/main.cpp.o -c /home/klewy/programming/vscode/cpp_projects/randomjoke/main.cpp",
+  "file": "/home/klewy/programming/vscode/cpp_projects/randomjoke/main.cpp",
+  "output": "CMakeFiles/proj.dir/main.cpp.o"
+},
+{
+  "directory": "/home/klewy/programming/vscode/cpp_projects/randomjoke/build",
+  "command": "/usr/bin/g++ -I/home/klewy/programming/vscode/cpp_projects/randomjoke/include -O3 -DNDEBUG -o CMakeFiles/proj.dir/api.cpp.o -c /home/klewy/programming/vscode/cpp_projects/randomjoke/api.cpp",
+  "file": "/home/klewy/programming/vscode/cpp_projects/randomjoke/api.cpp",
+  "output": "CMakeFiles/proj.dir/api.cpp.o"
+},
+{
+  "directory": "/home/klewy/programming/vscode/cpp_projects/randomjoke/build",
+  "command": "/usr/bin/g++ -I/home/klewy/programming/vscode/cpp_projects/randomjoke/include -O3 -DNDEBUG -o CMakeFiles/proj.dir/parser.cpp.o -c /home/klewy/programming/vscode/cpp_projects/randomjoke/parser.cpp",
+  "file": "/home/klewy/programming/vscode/cpp_projects/randomjoke/parser.cpp",
+  "output": "CMakeFiles/proj.dir/parser.cpp.o"
+}
+]
